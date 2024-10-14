@@ -1,0 +1,13 @@
+.admin{
+    display: flex;
+}
+
+/* #region @ 800px*/
+
+@media(max-width:800px){
+    .admin{
+        flex-direction: column;
+    }
+}
+
+/* #endregion @ 800px*/
